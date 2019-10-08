@@ -1,33 +1,67 @@
 .App {
-  text-align: center;
+    text-align: center;
 }
 
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+    animation: App-logo-spin infinite 20s linear;
+    height: 40vmin;
+    pointer-events: none;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+    background-color: #282c34;
+    min-height: 100vh;
+    d display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
 }
 
 .App-link {
-  color: #61dafb;
+    color: #61dafb;
 }
 
 @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+input[type="text"] {
+    margin: 1rem;
+    border-radius: 12px;
+    padding: 1rem;
+    background: ghostwhite;
+    color: orange;
+}
+
+button {
+    border-radius: 13px;
+    padding: 1rem 10rem;
+    box-shadow: inset -2px -2px 12px 1px black;
+    background: skyblue;
+}
+
+form {
+    /* flex-flow: wrap; */
+    display: flex;
+    flex-direction: column;
+    width: 720px;
+}
+
+header.App-header {
+    background: radial-gradient(yellow, chartreuse);
+    border-radius: 20px;
+    text-shadow: -1px 0px black;
+    box-shadow: inset 0px 0px 20px 1px blueviolet;
+    padding: 2rem;
+}
+
+div {
+    text-shadow: 3px 4px 3px beige;
 }

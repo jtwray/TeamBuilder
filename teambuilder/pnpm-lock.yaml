@@ -1,4 +1,5 @@
 dependencies:
+  bulma: 0.7.5
   react: 16.10.2
   react-dom: 16.10.2_react@16.10.2
   react-scripts: 3.1.1
@@ -2846,6 +2847,10 @@ packages:
     dev: false
     resolution:
       integrity: sha1-hZgoeOIbmOHGZCXgPQF0eI9Wnug=
+  /bulma/0.7.5:
+    dev: false
+    resolution:
+      integrity: sha512-cX98TIn0I6sKba/DhW0FBjtaDpxTelU166pf7ICXpCCuplHWyu6C9LYZmL5PEsnePIeJaiorsTEzzNk3Tsm1hw==
   /bytes/3.0.0:
     dev: false
     engines:
@@ -10896,6 +10901,7 @@ packages:
     resolution:
       integrity: sha512-2eehun/8ALW8TLoIl7MVaRUrg+yCnenu8B4kBlRxj3GJGDKU1Og7sMXPNm1BYyM1DOJmTZ4YeN/Nwxv+8XJsUA==
 specifiers:
+  bulma: ^0.7.5
   react: ^16.9.0
   react-dom: ^16.9.0
   react-scripts: 3.1.1

@@ -1,15 +1,11 @@
 import React from "react"
+import {SingleTeamMate} from "./SingleTeamMate"
 export function TeamMate({teammates}) {
     return (
         <>
-            {teammates.map((tm, index)=> (
-            <div key={index}>
-                <h2>{tm.name}</h2>
-                <ul>
-                    <li>{tm.email}</li>
-                    <li>{tm.role}</li>
-                </ul>
-            </div>))}
+            {
+                teammates.map(tm => <SingleTeamMate key={`${tm.name}${tm.role}`} tm={tm} /> )
+            }
         </>
     )
 }

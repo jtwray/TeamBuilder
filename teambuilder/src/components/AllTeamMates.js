@@ -1,6 +1,6 @@
 import React from "react"
 import {SingleTeamMate} from "./SingleTeamMate"
-export function TeamMate({teammates}) {
+export function AllTeamMates({teammates}) {
     return (
         <>
             {
